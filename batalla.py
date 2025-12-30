@@ -45,16 +45,8 @@ def batalla (p1, p2):
             if oponente.hp_actual <= 0:
                 print(f"🏆 ¡EL GANADOR ES {atacante.nombre.upper()}!")
                 return
-        
-
-# import copy
-
-# # Crea una copia independiente del objeto
-# p1 = copy.deepcopy(Pokemones.get("venusaur"))
-# p2 = copy.deepcopy(Pokemones.get("venusaur"))
-
-# Ahora p1 puede golpear a p2 sin herirse a sí mismo
 
 p1 = Pokemones.get("zapdos")
 p2 = Pokemones.get("charizard")
 batalla(p1, p2)
+
