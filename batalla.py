@@ -58,21 +58,3 @@ def batalla (p1, p2):
 p1 = Pokemones.get("zapdos")
 p2 = Pokemones.get("charizard")
 batalla(p1, p2)
-
-
-# 🚀 Ideas para llevar tu juego al siguiente nivel
-# Ahora que la base funciona, podrías considerar estas tres mejoras:
-
-# Sistema de Nivel y Experiencia:
-
-# Podrías añadir un atributo nivel y experiencia en cls.py.
-
-# Al ganar, el Pokémon sube de nivel y sus estadísticas aumentan un pequeño porcentaje.
-
-# Efectos de Estado (Estados Alterados):
-
-# Añadir la probabilidad de Quemar (baja vida cada turno) o Paralizar (baja la velocidad o impide atacar).
-
-# Interfaz Gráfica o de Sonido:
-
-# Usar librerías como colorama para que los textos tengan colores fijos o incluso pequeñas pausas entre ataques con import time; time.sleep(1) para darle más suspenso a la batalla.
